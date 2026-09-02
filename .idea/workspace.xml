@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="jdbk-demo" />
+      <module name="tilas-utils" />
+      <module name="tlias-parent" />
+      <module name="tlias-pojo" />
+      <module name="tlias-web-management" />
+      <module name="maven-project01" />
+      <module name="aliyun-oss" />
+      <module name="aliyun-oss-spring-boot-autoconfigure" />
+      <module name="Springboot-project01" />
+      <module name="parent" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目">
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/itheima.VYNJfg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/sakila.oXLGyQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/sakila.oXLGyQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/test.kkQ2AA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/java/com/SpringbootProject01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/java/com/itheima/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/java/com/itheima/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/java/com/itheima/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/main/resources/itheima/Dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/src/test/java/com/heima/springbootproject01/SpringbootProject01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/classes/com/SpringbootProject01Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/classes/com/itheima/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/classes/com/itheima/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/classes/itheima/Dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/surefire-reports/2026-08-18T18-18-39_637.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/surefire-reports/2026-08-18T18-20-33_755.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/surefire-reports/TEST-com.heima.springbootproject01.SpringbootProject01ApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/surefire-reports/com.heima.springbootproject01.SpringbootProject01ApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Springboot-project01/target/test-classes/com/heima/springbootproject01/SpringbootProject01ApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/src/main/java/com/itheima/pojo/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbk-demo/src/test/java/example/JdbkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/src/main/java/com/itheima/SpringBootApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/src/main/java/com/itheima/test/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/src/main/java/com/itheima/test/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/src/test/java/com/itheima/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/target/classes/com/itheima/SpringBootApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/target/classes/com/itheima/test/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/target/classes/com/itheima/test/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-project01/target/test-classes/com/itheima/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reasonix.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/src/main/java/com/itheima/TilasUtilsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/src/main/java/com/itheima/utils/AliyunOSSOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/src/main/java/com/itheima/utils/CurrentHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/src/main/java/com/itheima/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/TilasUtilsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/utils/AliyunOSSOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/utils/CurrentHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/utils/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/EmpLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/JobOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Logininfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/OperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/emp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/emp_expr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/EmpLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/JobOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/Logininfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/OperateLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/emp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/emp1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/emp_expr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/storage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/emp_exprMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/AOP/OperateLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/AOP/OperateLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/filter/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/EmpLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/JobOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/Logininfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/OperateLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/PageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/emp1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/emp_expr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/pojo/user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/utils/AliyunOSSOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/utils/CurrentHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/utils/JwtUtils.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/tlias-web-management" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tlias-web-management" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;user161514&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/user161514/Demo.git&quot;,
+    &quot;accountId&quot;: &quot;bdc6e7fb-df8e-4ba9-840f-7e22a67ffb3c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/empmapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2-sources.jar!/com/zaxxer/hikari/HikariDataSource.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.19/mybatis-3.5.19-sources.jar!/org/apache/ibatis/binding/BindingException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/7.0.2/spring-context-7.0.2-sources.jar!/org/springframework/stereotype/Service.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../jdk存放/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.9.16\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.16\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3HzMrR20ZzEqKcuLaSHmhcFcQED" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "HTTP 请求.generated-requests | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #2.executor": "Run",
+    "JUnit.LogTest.executor": "Run",
+    "JUnit.LogTest.testLog.executor": "Run",
+    "JUnit.SpringbootProject01ApplicationTests.executor": "Run",
+    "JUnit.SpringbootProject01ApplicationTests.y.executor": "Run",
+    "JUnit.UUIDTest.testUuid.executor": "Run",
+    "JUnit.user.executor": "Coverage",
+    "JUnit.user.testGetAge (1).executor": "Coverage",
+    "JUnit.user.testGetAge.executor": "Coverage",
+    "JUnit.user.w (1).executor": "Run",
+    "JUnit.user.w.executor": "Run",
+    "JUnit.user.x.executor": "Run",
+    "Maven.MavenTest [compile].executor": "Run",
+    "Maven.MavenTest [package].executor": "Run",
+    "Maven.Springboot-project01 [clean].executor": "Run",
+    "Maven.Springboot-project01 [validate].executor": "Run",
+    "Maven.jdbk-demo [clean].executor": "Run",
+    "Maven.maven-project01 [clean].executor": "Run",
+    "Maven.maven-project01 [compile].executor": "Run",
+    "Maven.maven-project01 [install].executor": "Run",
+    "Maven.parent [clean].executor": "Run",
+    "Maven.parent [install].executor": "Run",
+    "Maven.parent [package].executor": "Run",
+    "Maven.tlias-web-management [clean].executor": "Run",
+    "Maven.tlias-web-management [install].executor": "Run",
+    "Maven.tlias-web-management [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "发现新的/更新的数据库配置",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.MangerTest (1).executor": "Run",
+    "Spring Boot.MangerTest.executor": "Run",
+    "Spring Boot.SpringBootApp.executor": "Run",
+    "Spring Boot.SpringbootProject01Application (1).executor": "Run",
+    "Spring Boot.SpringbootProject01Application.executor": "Run",
+    "Spring Boot.TliasWebManagementApplication.executor": "Run",
+    "TestNG.JdbkTest (1).executor": "Run",
+    "TestNG.JdbkTest.TestSelect.executor": "Run",
+    "TestNG.JdbkTest.TestUpdate (1).executor": "Run",
+    "TestNG.JdbkTest.TestUpdate.executor": "Run",
+    "TestNG.JdbkTest.executor": "Run",
+    "TestNG.Test.e.executor": "Run",
+    "TestNG.Test.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java/demo/tlias-pojo/src/main/java/com/itheima",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/java/demo/MavenTest/src/main/java/com/example/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Example.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.OssUploadExample.executor": "Debug",
+    "应用程序.SpringBootApp.executor": "Run",
+    "应用程序.TliasWebManagementApplication.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\MSI\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="524f8003-f476-4d17-b290-cb73d58eaba4" reportId="demo/qodana/2026-08-23" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\demo\tlias-pojo\src\main\java\com\itheima" />
+      <recent name="D:\java\demo\tilas-utils\src\main\java\com\itheima" />
+      <recent name="D:\java\demo\tlias-web-management\src\main\resources\static" />
+      <recent name="D:\java\demo\maven-project01" />
+      <recent name="D:\java\demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\demo\tlias-web-management\src" />
+      <recent name="D:\java\demo\tlias-web-management\src\main" />
+      <recent name="D:\java\demo\Springboot-project01\src\main\resources" />
+      <recent name="D:\java\demo\Springboot-project01\src\main\resources\itheima" />
+      <recent name="D:\java\demo\Springboot-project01\src\main\resources\itheima\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.itheima" />
+      <recent name="com" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.utils" />
+      <recent name="com.itheima.Service" />
+      <recent name="com.itheima.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MangerTest (1)">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.Example" />
+      <module name="tlias-web-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssUploadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.OssUploadExample" />
+      <module name="tlias-web-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tlias-web-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.LogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UUIDTest.testUuid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tlias-web-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.UUIDTest" />
+      <option name="METHOD_NAME" value="testUuid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MavenTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MavenTest" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MangerTest (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tlias-web-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.MangerTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootProject01Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Springboot-project01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringbootProject01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootProject01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Springboot-project01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.springbootproject01.SpringbootProject01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TilasUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tilas-utils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.TilasUtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasPojoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tlias-pojo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.TliasPojoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TliasWebManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tlias-web-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.tliaswebmanagement.TliasWebManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UUIDTest.testUuid" />
+      <item itemvalue="JUnit.LogTest" />
+      <item itemvalue="Spring Boot.TilasUtilsApplication" />
+      <item itemvalue="Spring Boot.TliasPojoApplication" />
+      <item itemvalue="Spring Boot.SpringbootProject01Application (1)" />
+      <item itemvalue="Spring Boot.TliasWebManagementApplication" />
+      <item itemvalue="Spring Boot.SpringbootProject01Application" />
+      <item itemvalue="Spring Boot.MangerTest (1)" />
+      <item itemvalue="应用程序.OssUploadExample" />
+      <item itemvalue="应用程序.Example" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MangerTest (1)" />
+        <item itemvalue="JUnit.UUIDTest.testUuid" />
+        <item itemvalue="JUnit.LogTest" />
+        <item itemvalue="应用程序.OssUploadExample" />
+        <item itemvalue="应用程序.Example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="逻辑" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="" />
+      <created>1786866643535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786866643535</updated>
+      <workItem from="1786866646222" duration="4307000" />
+      <workItem from="1786872512635" duration="8728000" />
+      <workItem from="1786888822537" duration="83000" />
+      <workItem from="1786959136361" duration="18645000" />
+      <workItem from="1786984089958" duration="7263000" />
+      <workItem from="1787025437545" duration="47837000" />
+      <workItem from="1787416231264" duration="285000" />
+      <workItem from="1787416550396" duration="6559000" />
+      <workItem from="1787424075904" duration="42506000" />
+      <workItem from="1787547761600" duration="34707000" />
+      <workItem from="1787648787393" duration="609000" />
+      <workItem from="1787651384804" duration="17046000" />
+      <workItem from="1787673379799" duration="57609000" />
+      <workItem from="1787861867880" duration="3340000" />
+      <workItem from="1787865235185" duration="1413000" />
+      <workItem from="1787900316118" duration="12273000" />
+      <workItem from="1787930484947" duration="12684000" />
+      <workItem from="1788293228329" duration="3155000" />
+      <workItem from="1788331810690" duration="14247000" />
+    </task>
+    <task id="LOCAL-00001" summary="tlias案例项目">
+      <option name="closed" value="true" />
+      <created>1787576476179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787576476180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tlias案例项目">
+      <option name="closed" value="true" />
+      <created>1787900479742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787900479742</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tlias案例项目">
+      <option name="closed" value="true" />
+      <created>1788293317310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788293317310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.testng:testng" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="87b2883a-12d8-4958-8647-0ff44615a270" value="TOOL_WINDOW" />
+        <entry key="8c72351d-4b56-44a0-974a-ae22a1f5f3f9" value="TOOL_WINDOW" />
+        <entry key="746febec-9f78-422e-a8e2-00ab91d4800c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="746febec-9f78-422e-a8e2-00ab91d4800c">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/java/demo/tlias-web-management/src/main/java/com/itheima/mapper" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="87b2883a-12d8-4958-8647-0ff44615a270">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="8c72351d-4b56-44a0-974a-ae22a1f5f3f9">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/java/demo/tlias-web-management/src/main/java/com/itheima/Service/serviceimpl" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tlias案例项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="tlias案例项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MavenTest/src/main/java/com/example/Main.java</url>
+          <line>13</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/serviceimpl/ReportServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/serviceimpl/ReportServiceImpl.java</url>
+          <line>29</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/mapper/empMapper.java</url>
+          <line>29</line>
+          <properties class="com.itheima.mapper.empMapper" method="countJob">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/mapper/empMapper.java</url>
+          <line>31</line>
+          <properties class="com.itheima.mapper.empMapper" method="countGender">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="d" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$user_testGetAge.ic" NAME="user.testGetAge 覆盖结果" MODIFIED="1786967646057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itheima.UserService</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo$user.ic" NAME="user 覆盖结果" MODIFIED="1786966703133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itheima.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo$user_testGetAge__1_.ic" NAME="user.testGetAge (1) 覆盖结果" MODIFIED="1786967124863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.itheima.*</FILTER>
+    </SUITE>
+  </component>
+</project>

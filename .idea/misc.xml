@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbk-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/MavenTest/pom.xml" />
+        <option value="$PROJECT_DIR$/web-ai-project01/maven-project01/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-project01/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot-project01/pom.xml" />
+        <option value="$PROJECT_DIR$/tlias-web-management/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/tilas-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/tlias-pojo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/MavenTest/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="ms-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

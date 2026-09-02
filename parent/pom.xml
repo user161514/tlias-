@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.itheima</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jjwt-api.version>0.12.6</jjwt-api.version>
+        <jjwt-impl.version>0.12.6</jjwt-impl.version>
+        <jjwt-jackson.version>0.12.6</jjwt-jackson.version>
+        <aliyun-oss.version>0.5.1</aliyun-oss.version>
+        <lombok.version>1.18.24</lombok.version>
+    </properties>
+    <modules>
+        <module>
+            ../tlias-web-management
+        </module>
+        <module>../tilas-utils</module>
+        <module>../tlias-pojo</module>
+    </modules>
+           <dependencies>
+               <!-- 新增：新版 JJWT（解决 Signed Claims 报错的核心！） -->
+               <dependency>
+                   <groupId>io.jsonwebtoken</groupId>
+                   <artifactId>jjwt-api</artifactId>
+                   <version>${jjwt-api.version}</version>
+               </dependency>
+               <dependency>
+                   <groupId>io.jsonwebtoken</groupId>
+                   <artifactId>jjwt-impl</artifactId>
+                   <version>${jjwt-impl.version}</version>
+                   <scope>runtime</scope>
+               </dependency>
+               <dependency>
+                   <groupId>io.jsonwebtoken</groupId>
+                   <artifactId>jjwt-jackson</artifactId>
+                   <version>${jjwt-jackson.version}</version>
+                   <scope>runtime</scope>
+               </dependency>
+               <!-- 阿里云 OSS -->
+               <dependency>
+                   <groupId>com.aliyun</groupId>
+                   <artifactId>alibabacloud-oss-v2</artifactId>
+                   <version>${aliyun-oss.version}</version>
+               </dependency>
+
+               <!-- V2 必须的底层依赖（解决之前的 NoClassDefFoundError） -->
+               <!-- 注意：5.1.4 的 jar 缺少 org/apache/hc/client5/http/config/ConnectionConfig 类，
+                    阿里云 OSS v2 SDK 运行时需要它，因此必须使用包含该类的较新版本（如 5.5.1）。
+                    Spring Boot 3.0.1 把 httpclient5 管理成 5.1.4、httpcore5 管理成 5.1.5，都与
+                    Aliyun OSS v2 不兼容，所以这里显式声明 5.5.1 + 配套的 httpcore5 5.3.6 来覆盖。 -->
+               <dependency>
+                   <groupId>org.apache.httpcomponents.client5</groupId>
+                   <artifactId>httpclient5</artifactId>
+                   <version>5.5.1</version>
+               </dependency>
+               <!-- httpclient5 5.5.1 需要 httpcore5 5.3.6，但 Spring Boot 3.0.1 的 dependencyManagement
+                    会把它覆盖回 5.1.5，显式声明以配套，否则会 NoSuchMethodError -->
+               <dependency>
+                   <groupId>org.apache.httpcomponents.core5</groupId>
+                   <artifactId>httpcore5</artifactId>
+                   <version>5.3.6</version>
+               </dependency>
+
+               <!-- 测试依赖 -->
+               <dependency>
+                   <groupId>org.springframework.boot</groupId>
+                   <artifactId>spring-boot-starter-test</artifactId>
+                   <scope>test</scope>
+               </dependency>
+               <dependency>
+                   <groupId>org.projectlombok</groupId>
+                   <artifactId>lombok</artifactId>
+                    <version>${lombok.version}</version>
+               </dependency>
+           </dependencies>
+
+
+</project>

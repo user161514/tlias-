@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/EmpLogMapper.java" value="914afa0d-e826-4351-87a6-7f6e76e1def9" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/itheima/mapper/OperateLogMapper.java" value="914afa0d-e826-4351-87a6-7f6e76e1def9" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/com/itheima/mapper/empmapper.xml" value="914afa0d-e826-4351-87a6-7f6e76e1def9" />
+  </component>
+</project>

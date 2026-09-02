@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Springboot-project01/Springboot-project01.iml" filepath="$PROJECT_DIR$/Springboot-project01/Springboot-project01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-oss/aliyun-oss.iml" filepath="$PROJECT_DIR$/aliyun-oss/aliyun-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-oss/aliyun-oss.iml" filepath="$PROJECT_DIR$/aliyun-oss/aliyun-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfigure/aliyun-oss-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbk-demo.iml" filepath="$PROJECT_DIR$/jdbk-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-project01/maven-project01.iml" filepath="$PROJECT_DIR$/maven-project01/maven-project01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo/pojo.iml" filepath="$PROJECT_DIR$/pojo/pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlias-parent/tlias-parent.iml" filepath="$PROJECT_DIR$/tlias-parent/tlias-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlias-parent/tlias-parent.iml" filepath="$PROJECT_DIR$/tlias-parent/tlias-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlias-utils/tlias-utils.iml" filepath="$PROJECT_DIR$/tlias-utils/tlias-utils.iml" />
+    </modules>
+  </component>
+</project>

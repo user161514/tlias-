@@ -1,0 +1,2 @@
+[permissions]
+allow = ["Bash=java -version 2>&1; echo \"---MVN---\"; mvn -version 2>&1 | head -5; echo \"---MYSQL PORT---\"; (netstat -ano 2>/dev/null | grep -i 3306 | head) || echo \"no netstat\""]
