@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.empMapper">
+    <update id="updateById">
+       update tlias.emp
+       <set>
+           <if test="username!=null and username!=''">username=#{username},</if>
+            <if test="password!=null and password!=''">emp.password=#{password},</if>
+            <if test="name!=null and name!=''">emp.name=#{name},</if>
+            <if test="gender!=null">gender=#{gender},</if>
+            <if test="phone!=null and phone!=''">phone=#{phone},</if>
+            <if test="job!=null and job!=''">job=#{job},</if>
+            <if test="salary!=null">salary=#{salary},</if>
+            <if test="image!=null and image!=''">image=#{image},</if>
+            <if test="entryDate!=null">entry_date=#{entryDate},</if>
+            <if test="deptId!=null">dept_id=#{deptId},</if>
+            <if test="createTime!=null">create_time=#{createTime},</if>
+            <if test="updateTime!=null">update_time=#{updateTime}</if>
+       </set>
+             where id=#{id}
+    </update>
+    <delete id="delete">
+        delete from tlias.emp where id in
+        <foreach collection="ids" item="del" separator="," open="(" close=")">
+                     #{del}
+        </foreach>
+    </delete>
+
+    <select id="Limit" resultType="com.itheima.pojo.emp">
+        SELECT e.*, d.name AS deptName
+        FROM emp e
+        LEFT JOIN dept d ON e.dept_id = d.id
+        <where>
+          <if test="name!=null and name!=''">
+            e.name LIKE CONCAT('%', #{name}, '%')</if>
+            <if test="gender!=null">
+            AND e.gender = #{gender}</if>
+            <if test="begin!=null and end!=null">
+            AND e.entry_date BETWEEN #{begin} AND #{end}
+        </if>
+        </where>
+        ORDER BY e.update_time DESC
+    </select>
+    <select id="select" resultMap="shenren">
+        select e1.*, e2.emp_id ee2, e2.begin ee3, e2.end ee4, e2.company ee5 from tlias.emp e1 left join tlias.emp_expr e2 on e2.emp_id=e1.id where e1.id=#{id};
+    </select>
+
+
+    <!--统计job-->
+    <select id="countJob"  resultType="Map">
+        select
+            (case
+                 when job=1 then '班主任'
+                 when job=2 then '讲师'
+                 when job=3 then '学工主管'
+                 when job=4 then '教研主管'
+                 when job=5 then '咨询师'
+                 else '其他'
+                end) as job,
+            count(*) as num
+        from emp
+        group by job ORDER BY NUM;
+    </select>
+
+
+
+
+    <select id="countGender" resultType="java.util.Map">
+      select (case tlias.emp.gender
+      when 1 then '男'
+      when 2 then '女'
+      else '其他'
+      end)as gender,
+      count(*) as value
+      from emp group by gender;
+    </select>
+
+
+
+
+
+<!--    登录管理认证-->
+    <select id="Login" resultType="com.itheima.pojo.Logininfo">
+         select id,name,username,password from tlias.emp where username=#{username} and password=#{password};
+    </select>
+
+
+    <resultMap id="shenren" type="com.itheima.pojo.emp">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="gender" column="gender"/>
+        <result property="phone" column="phone"/>
+        <result property="job" column="job"/>
+        <result property="salary" column="salary"/>
+        <result property="image" column="image"/>
+        <result property="entryDate" column="entry_date"/>
+        <result property="deptId" column="dept_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <collection property="exprList" ofType="com.itheima.pojo.emp_expr">
+            <result column="ee2" property="empId"/>
+            <result column="ee3" property="begin"/>
+            <result column="ee4" property="end"/>
+            <result column="ee5" property="company"/>
+        </collection>
+    </resultMap>
+</mapper>
