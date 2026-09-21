@@ -20,7 +20,15 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目" />
+    <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +36,11 @@
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="e63025c0-257e-4a6d-bb63-16b69df16749" value="" />
+    </colors>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,8 +153,6 @@
     &quot;Maven.tlias-web-management [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.tlias-web-management [package].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;发现新的/更新的数据库配置&quot;,
-    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
     &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -171,7 +182,7 @@
     &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/demo/tlias-pojo/src/main/java/com/itheima&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/代码库/tlias-&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -182,7 +193,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;应用程序.Example.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
@@ -345,26 +356,32 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UUIDTest.testUuid" />
       <item itemvalue="JUnit.LogTest" />
+      <item itemvalue="JUnit.UUIDTest.testUuid" />
+      <item itemvalue="Spring Boot.SpringbootProject01Application (1)" />
+      <item itemvalue="Spring Boot.SpringbootProject01Application" />
       <item itemvalue="Spring Boot.TilasUtilsApplication" />
       <item itemvalue="Spring Boot.TliasPojoApplication" />
-      <item itemvalue="Spring Boot.SpringbootProject01Application (1)" />
       <item itemvalue="Spring Boot.TliasWebManagementApplication" />
-      <item itemvalue="Spring Boot.SpringbootProject01Application" />
       <item itemvalue="Spring Boot.MangerTest (1)" />
-      <item itemvalue="应用程序.OssUploadExample" />
       <item itemvalue="应用程序.Example" />
+      <item itemvalue="应用程序.OssUploadExample" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MangerTest (1)" />
         <item itemvalue="JUnit.UUIDTest.testUuid" />
         <item itemvalue="JUnit.LogTest" />
-        <item itemvalue="应用程序.OssUploadExample" />
-        <item itemvalue="应用程序.Example" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="StructureViewState">
     <option name="selectedTab" value="逻辑" />
@@ -552,6 +569,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/tlias-web-management" />
+    </ignored-roots>
     <MESSAGE value="tlias案例项目" />
     <option name="LAST_COMMIT_MESSAGE" value="tlias案例项目" />
   </component>
@@ -580,7 +600,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/mapper/empMapper.java</url>
           <line>29</line>
-          <properties class="com.itheima.mapper.empMapper">
+          <properties class="com.itheima.mapper.empMapper" method="countJob">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
