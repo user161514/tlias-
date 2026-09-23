@@ -19,6 +19,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="D:/apache-maven-3.9.16/mvn_repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="D:/apache-maven-3.9.16/mvn_repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="Springboot-project01" />
       </profile>

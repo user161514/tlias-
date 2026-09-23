@@ -43,6 +43,7 @@
         </where>
         ORDER BY e.update_time DESC
     </select>
+
     <select id="select" resultMap="shenren">
         select e1.*, e2.emp_id ee2, e2.begin ee3, e2.end ee4, e2.company ee5 from tlias.emp e1 left join tlias.emp_expr e2 on e2.emp_id=e1.id where e1.id=#{id};
     </select>
