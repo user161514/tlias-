@@ -21,29 +21,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目">
-      <change afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/Emp22Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/Emp22service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/serviceimpl/Emp22serviceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/mapper/Emp22Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/Emp22mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/itheima.VYNJfg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/sakila.oXLGyQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/sakila.oXLGyQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/207d5c3d-2932-4f69-ac88-bf709e370c73/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/filter/TokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/emp_exprMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/empmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/empmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/Emp22Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/Emp22Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +79,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/user161514/Demo.git&quot;,
-    &quot;accountId&quot;: &quot;bdc6e7fb-df8e-4ba9-840f-7e22a67ffb3c&quot;
+    &quot;url&quot;: &quot;https://github.com/user161514/tlias-.git&quot;,
+    &quot;accountId&quot;: &quot;7ec11ff2-a0f3-40da-8da4-96cb40350a28&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">

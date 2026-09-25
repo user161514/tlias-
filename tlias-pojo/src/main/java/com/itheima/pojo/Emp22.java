@@ -1,9 +1,11 @@
 package com.itheima.pojo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
+@Data
 public class Emp22 {
 
     private Integer id;
