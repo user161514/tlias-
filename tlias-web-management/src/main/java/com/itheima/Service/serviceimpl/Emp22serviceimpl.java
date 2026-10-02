@@ -15,8 +15,25 @@ public class Emp22serviceimpl implements Emp22service {
     @Autowired
     private Emp22Mapper d;
     @Override
-    public List<Emp22> select(Emp22 emplist) {
-        List<Emp22> select = d.select(emplist);
+    public List<Emp22> select(Integer id) {
+        List<Emp22> select = d.select(id);
         return select;
+    }
+
+    /**
+     * @param name
+     */
+    @Override
+    public void emp22Add(String name) {
+        d.insert(name);
+
+    }
+
+    /**
+     * @return
+     */
+    @Override
+    public List<Emp22> select1() {
+       return d.select1();
     }
 }
