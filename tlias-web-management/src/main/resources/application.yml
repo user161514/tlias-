@@ -6,6 +6,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/tlias
     username: root
     password: ***REMOVED_DB_PASSWORD***
+    type: com.alibaba.druid.pool.DruidDataSource
   servlet:
     multipart:
       max-file-size: 10MB
@@ -14,8 +15,8 @@ spring:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-    map-underscore-to-camel-case: true
-#  mapper-locations: classpath:mapper/*.xml
+#    map-underscore-to-camel-case: true
+  mapper-locations: classpath:com.itheima/mapper/*.xml
 logging:
   level:
     org.springframework.jdbc.support.JdbcTransactionManager: debug

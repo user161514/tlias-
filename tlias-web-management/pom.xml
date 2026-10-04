@@ -37,6 +37,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- 在 <dependencies> 标签内添加 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+			<version>1.2.23</version> <!-- 或者使用适合你 Spring Boot 版本的版本 -->
+		</dependency>
 
 		<!-- PageHelper 分页插件 -->
 		<dependency>

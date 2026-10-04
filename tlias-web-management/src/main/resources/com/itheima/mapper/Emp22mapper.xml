@@ -9,11 +9,37 @@
     </insert>
 
     <select id="select" resultType="com.itheima.pojo.Emp22">
-        select name from tlias.emp where id=#{id}
+        select * from tlias.emp where id=#{id}
     </select>
 
 
     <select id="select1" resultType="com.itheima.pojo.Emp22">
         select * from tlias.emp
     </select>
+
+    <select id="query" resultType="com.itheima.pojo.Emp22">
+        select * from tlias.emp
+        <where>
+            <if test="name != null and name != ''">
+                AND name = #{name}
+            </if>
+            <if test="gender != null and gender != ''">
+                AND gender = #{gender}
+            </if>
+            <if test="job != null and job != ''">
+                AND job = #{job}
+            </if>
+        </where>
+    </select>
+
+    <update id="update1">
+        update tlias.emp set name=#{name} where id=#{id}
+    </update>
+
+    <delete id="delete1">
+        delete from tlias.emp where id=#{id}
+    </delete>
+
+
+
 </mapper>

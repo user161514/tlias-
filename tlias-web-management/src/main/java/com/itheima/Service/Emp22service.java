@@ -10,4 +10,10 @@ public interface Emp22service {
     void emp22Add(String name);
 
     List<Emp22> select1();
+
+    void update(String name, Integer id);
+
+    void delete(Integer id);
+
+    Emp22 selectemp(Emp22 dj);
 }
