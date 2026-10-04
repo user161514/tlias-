@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class Exceptioncarry {
     @ExceptionHandler
     public Result handleException(Exception m){
+        log.error("异常成功捕获！", m);
+// 或者
+        m.printStackTrace();
         log.info("异常成功捕获！{}",m.getMessage());
         return Result.error(m.getMessage()); // Return a Result object with the error message
     }

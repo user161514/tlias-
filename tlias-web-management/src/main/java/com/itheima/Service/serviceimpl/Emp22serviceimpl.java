@@ -36,4 +36,26 @@ public class Emp22serviceimpl implements Emp22service {
     public List<Emp22> select1() {
        return d.select1();
     }
+
+    @Override
+    public void update(String name, Integer id){
+        d.update1(name,id);
+    }
+
+
+    @Override
+    public void delete(Integer id) {
+        d.delete1(id);
+    }
+
+    /**
+     * @param  员工查询
+     * @return
+     */
+    @Override
+    public Emp22 selectemp(Emp22 dj) {
+       return  d.query(dj);
+    }
+
+
 }

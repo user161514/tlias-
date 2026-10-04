@@ -15,10 +15,10 @@ public class Emp22 {
     private String avatar;
     
     @JsonFormat(pattern = "yyyy-MM-dd", timezone = "GMT+8")
-    private LocalDate entryDate;
+    private LocalDate entry_date;
     
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
-    private LocalDateTime updateTime;
+    private LocalDateTime update_time;
 
     // 此处省略 Getter 和 Setter 方法，请使用 IDE 自动生成（快捷键 Alt + Insert）
     // public Integer getId() { return id; }

@@ -21,75 +21,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e63025c0-257e-4a6d-bb63-16b69df16749/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/doNotAskNotifications.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml.bak" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tilas-utils/src/main/java/com/itheima/TilasUtilsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tilas-utils/src/main/java/com/itheima/TilasUtilsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/TilasUtilsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/utils/AliyunOSSOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/utils/CurrentHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tilas-utils/target/classes/com/itheima/utils/JwtUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/Emp22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/EmpLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/JobOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/Logininfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/OperateLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/emp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/emp_expr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/storage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-pojo/target/classes/com/itheima/pojo/user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/Emp22Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Controller/Emp22Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/MangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/MangerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Exception/Exceptioncarry.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Exception/Exceptioncarry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/Emp22service.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/Emp22service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/serviceimpl/Emp22serviceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/Service/serviceimpl/Emp22serviceimpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/mapper/Emp22Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/java/com/itheima/mapper/Emp22Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/Emp22mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/Emp22mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/test/java/com/itheima/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/test/java/com/itheima/LogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/Logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/AOP/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/AOP/OperateLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Config/Commond.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Config/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Controller/Emp22Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Controller/EmpController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Controller/ReportController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Controller/SessionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Controller/UploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Exception/Exceptioncarry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Interceptor/Interceptorapp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/MangerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/Emp22service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/EmpLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/Empservice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/ReportService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/serviceimpl/Emp22serviceimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/serviceimpl/EmpLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/serviceimpl/LoginServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/serviceimpl/ReportServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/serviceimpl/empservice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/Service/serviceimpl/serviceimpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/DeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/Emp22Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/Emp22mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/EmpLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/OperateLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/empMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/emp_exprMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/emp_exprmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/empmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/static/文件上床测试.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +63,7 @@
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
+      <entry key="1c2bd5dd-a947-4f8f-ac7c-e0043dfef174" value="" />
       <entry key="e63025c0-257e-4a6d-bb63-16b69df16749" value="" />
     </colors>
   </component>
@@ -156,8 +119,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.10.0" />
         <option name="localRepository" value="D:\maven\apache-maven-3.10.0" />
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.10.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -251,10 +215,11 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "SQL Dialects",
     "vue.rearranger.settings.migration": "true",
     "应用程序.Example.executor": "Run",
     "应用程序.Main.executor": "Run",
+    "应用程序.MangerTest.executor": "Run",
     "应用程序.OssUploadExample.executor": "Debug",
     "应用程序.SpringBootApp.executor": "Run",
     "应用程序.TliasWebManagementApplication.executor": "Run"
@@ -299,9 +264,9 @@
       <recent name="com.itheima.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MangerTest (1)">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.Example" />
+  <component name="RunManager" selected="应用程序.MangerTest">
+    <configuration name="MangerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MangerTest" />
       <module name="tlias-web-management" />
       <extension name="coverage">
         <pattern>
@@ -368,7 +333,7 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <configuration name="MangerTest (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MangerTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tlias-web-management" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.MangerTest" />
       <extension name="coverage">
@@ -424,13 +389,14 @@
       <item itemvalue="Spring Boot.TilasUtilsApplication" />
       <item itemvalue="Spring Boot.TliasPojoApplication" />
       <item itemvalue="Spring Boot.TliasWebManagementApplication" />
-      <item itemvalue="Spring Boot.MangerTest (1)" />
-      <item itemvalue="应用程序.Example" />
+      <item itemvalue="Spring Boot.MangerTest" />
+      <item itemvalue="应用程序.MangerTest" />
       <item itemvalue="应用程序.OssUploadExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MangerTest (1)" />
+        <item itemvalue="应用程序.MangerTest" />
+        <item itemvalue="Spring Boot.MangerTest" />
         <item itemvalue="JUnit.UUIDTest.testUuid" />
         <item itemvalue="JUnit.LogTest" />
       </list>
