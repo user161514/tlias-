@@ -20,7 +20,12 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目" />
+    <list default="true" id="f79794e3-e9f2-42f2-82f2-44902bd3be8e" name="更改" comment="tlias案例项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-pojo/src/main/java/com/itheima/pojo/Emp22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/Emp22mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/src/main/resources/com/itheima/mapper/Emp22mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/Emp22mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tlias-web-management/target/classes/com/itheima/mapper/Emp22mapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
