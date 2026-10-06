@@ -2,6 +2,8 @@ package com.itheima.pojo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandidate;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -13,13 +15,12 @@ public class Emp22 {
     private Integer gender; 
     private String job;
     private String avatar;
-    
-    @JsonFormat(pattern = "yyyy-MM-dd", timezone = "GMT+8")
-    private LocalDate entry_date;
-    
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
-    private LocalDateTime update_time;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private LocalDate begin;
+    
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private LocalDate end;
     // 此处省略 Getter 和 Setter 方法，请使用 IDE 自动生成（快捷键 Alt + Insert）
     // public Integer getId() { return id; }
     // ...

@@ -4,20 +4,29 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.mapper.Emp22Mapper">
 
+    <!-- ⚠️ 1. 这里是你说的那个错的符号： #name 要改成 #{name} -->
     <insert id="insert" >
-     insert into tlias.emp (name) values (#{name})
+        insert into tlias.emp (name) values (#{name})
     </insert>
 
-    <select id="select" resultType="com.itheima.pojo.Emp22">
+    <!-- ⚠️ 2. 下面这个 resultMap 必须放在所有 select/insert/update/delete 的前面！ -->
+    <resultMap id="fengzhuang" type="com.itheima.pojo.Emp22">
+        <result column="entry_date" property="begin"/>
+        <!-- ⚠️ 3. 注意这里：你的实体类里是 end，数据库里如果叫 update_time 可以映射，但要保证名字对应 -->
+        <result column="update_time" property="end"/>
+    </resultMap>
+
+    <select id="select" resultMap="fengzhuang">
         select * from tlias.emp where id=#{id}
     </select>
 
-
-    <select id="select1" resultType="com.itheima.pojo.Emp22">
+    <select id="select1" resultMap="fengzhuang">
         select * from tlias.emp
     </select>
 
-    <select id="query" resultType="com.itheima.pojo.Emp22">
+    <!-- ⚠️ 4. resultType 和 resultMap 坚决不能同时出现！ -->
+    <!-- 因为你用了 resultMap 做日期映射，就必须删掉 resultType -->
+    <select id="query" resultMap="fengzhuang">
         select * from tlias.emp
         <where>
             <if test="name != null and name != ''">
@@ -26,8 +35,9 @@
             <if test="gender != null and gender != ''">
                 AND gender = #{gender}
             </if>
-            <if test="job != null and job != ''">
-                AND job = #{job}
+            <!-- ⚠️ 5. 这里查日期范围应该用 >= 和 <=，而不是 = -->
+            <if test="begin != null">
+                AND entry_date = #{begin}
             </if>
         </where>
     </select>
@@ -39,7 +49,5 @@
     <delete id="delete1">
         delete from tlias.emp where id=#{id}
     </delete>
-
-
 
 </mapper>
