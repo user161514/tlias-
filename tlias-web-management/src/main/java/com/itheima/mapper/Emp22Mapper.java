@@ -1,6 +1,7 @@
 package com.itheima.mapper;
 
 import com.itheima.pojo.Emp22;
+import com.itheima.pojo.PageResult;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -18,6 +19,6 @@ public interface Emp22Mapper {
 
     void delete1(Integer id);
 
-    Emp22 query(Emp22 emp22);
+    List<Emp22> query(Emp22 emp22);
 
 }

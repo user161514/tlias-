@@ -1,6 +1,8 @@
 package com.itheima.Service;
 
 import com.itheima.pojo.Emp22;
+import com.itheima.pojo.PageResult;
+import com.itheima.pojo.page;
 
 import java.util.List;
 
@@ -15,5 +17,9 @@ public interface Emp22service {
 
     void delete(Integer id);
 
-    Emp22 selectemp(Emp22 dj);
+
+
+   List<Emp22> selectemp(Emp22 dj);
+
+    PageResult selectlimit(page dj);
 }

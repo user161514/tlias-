@@ -23,6 +23,8 @@ logging:
 
 aliyun:
   oss:
-    endpoint: http://oss-cn-beijing.aliyuncs.com
+    endpoint: oss-cn-beijing.aliyuncs.com
     bucketName: lias-55
     region: cn-beijing
+    access-key-id: ***REMOVED***
+    access-key-secret: ***REMOVED***

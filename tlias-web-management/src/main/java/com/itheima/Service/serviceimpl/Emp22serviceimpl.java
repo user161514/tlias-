@@ -1,8 +1,12 @@
 package com.itheima.Service.serviceimpl;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.itheima.Service.Emp22service;
 import com.itheima.mapper.Emp22Mapper;
 import com.itheima.pojo.Emp22;
+import com.itheima.pojo.PageResult;
+import com.itheima.pojo.page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -49,12 +53,22 @@ public class Emp22serviceimpl implements Emp22service {
     }
 
     /**
-     * @param  员工查询
+     * @param 员工查询
      * @return
      */
     @Override
-    public Emp22 selectemp(Emp22 dj) {
+    public List<Emp22> selectemp(Emp22 dj) {
        return  d.query(dj);
+    }
+
+    @Override
+    public PageResult selectlimit(page dj) {
+        PageHelper.startPage(dj.getCurrentPage4(), dj.getPageSize4());
+        Emp22 emp = new Emp22(dj.getGender(),dj.getEnd(),dj.getBegin(),dj.getName());
+        List<Emp22> query = d.query(emp);
+        Page<Emp22> query1 = (Page<Emp22>) query;
+        PageResult<Emp22> emp22PageResult = new PageResult<>(query1.getTotal(), query1.getResult());
+        return emp22PageResult;
     }
 
 

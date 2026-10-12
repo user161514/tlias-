@@ -11,4 +11,6 @@ public class storage {
     String endpoint;
     String bucketName;
     String region ;
+    String accessKeyId;
+    String accessKeySecret;
 }

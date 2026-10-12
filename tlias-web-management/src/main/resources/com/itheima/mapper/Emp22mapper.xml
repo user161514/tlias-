@@ -10,10 +10,9 @@
     </insert>
 
     <!-- ⚠️ 2. 下面这个 resultMap 必须放在所有 select/insert/update/delete 的前面！ -->
-    <resultMap id="fengzhuang" type="com.itheima.pojo.Emp22">
-        <result column="entry_date" property="begin"/>
-        <!-- ⚠️ 3. 注意这里：你的实体类里是 end，数据库里如果叫 update_time 可以映射，但要保证名字对应 -->
-        <result column="update_time" property="end"/>
+    <resultMap id="fengzhuang" type="com.itheima.pojo.page">
+            <result column="update_time" property="end"/>
+            <result column="entry_date" property="begin"/>
     </resultMap>
 
     <select id="select" resultMap="fengzhuang">
@@ -30,14 +29,17 @@
         select * from tlias.emp
         <where>
             <if test="name != null and name != ''">
-                AND name = #{name}
+                AND name like concat('%', #{name}, '%')
             </if>
             <if test="gender != null and gender != ''">
                 AND gender = #{gender}
             </if>
             <!-- ⚠️ 5. 这里查日期范围应该用 >= 和 <=，而不是 = -->
             <if test="begin != null">
-                AND entry_date = #{begin}
+                AND entry_date &gt;= #{begin}
+            </if>
+            <if test="end != null">
+                AND update_time &lt;= #{end}
             </if>
         </where>
     </select>

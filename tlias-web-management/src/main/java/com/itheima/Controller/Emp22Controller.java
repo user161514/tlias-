@@ -2,7 +2,9 @@ package com.itheima.Controller;
 
 import com.itheima.Service.Emp22service;
 import com.itheima.pojo.Emp22;
+import com.itheima.pojo.PageResult;
 import com.itheima.pojo.Result;
+import com.itheima.pojo.page;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,7 +58,14 @@ public class Emp22Controller {
 
     @GetMapping("emp")
     public Result emp22List(Emp22 dj) {
-        return Result.success(y.selectemp(dj));
+        List<Emp22> selectemp = y.selectemp(dj);
+        return Result.success(selectemp);
+    }
+
+    @GetMapping("emp2")
+    public Result emp22List(page dj) {
+        PageResult selectemp = y.selectlimit(dj);
+        return Result.success(selectemp);
     }
 
 }

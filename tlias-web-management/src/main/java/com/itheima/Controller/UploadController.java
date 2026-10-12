@@ -23,10 +23,7 @@ import java.util.UUID;
     AliyunOSSOperator ee;
 
         @PostMapping("/url")
-        public Result handleFileUpload(@RequestParam String name,
-                                       @RequestParam Integer age,
-                                       @RequestParam("file")
-                                       MultipartFile file) throws Exception {
+        public Result handleFileUpload(@RequestParam("file") MultipartFile file) throws Exception {
             log.info("文件上传: {}", file.getOriginalFilename());
             String upload = ee.upload(file.getBytes(), file.getOriginalFilename());
             log.info("文件上床url:{}",upload);
