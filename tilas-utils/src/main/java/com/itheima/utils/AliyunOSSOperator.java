@@ -26,9 +26,7 @@ public class AliyunOSSOperator {
     public String upload(byte[] content, String originalFilename) throws Exception {
         System.out.println("读取到的AK: [" + m.getAccessKeyId() + "]");
         System.out.println("读取到的SK: [" + m.getAccessKeySecret() + "]");
-        String endpoint = m.getEndpoint();
-        String bucketName = m.getBucketName();
-        String region = m.getRegion();
+
 
         // ✅【修正点1】使用 StaticCredentialsProvider，从配置类里直接读取 AK/SK
         Credentials credentials = new Credentials(m.getAccessKeyId(), m.getAccessKeySecret());
@@ -54,7 +52,7 @@ public class AliyunOSSOperator {
 
             // 构建上传请求
             PutObjectRequest putObjectRequest = PutObjectRequest.newBuilder()
-                    .bucket(bucketName)
+                    .bucket(m.getBucketName())
                     .key(objectName)
                     .body(binaryData)
                     .build();
@@ -64,7 +62,7 @@ public class AliyunOSSOperator {
 
             // ✅【修正点2】返回文件的访问 URL（不要写死 oss-cn-beijing.aliyuncs.com，建议用 m.getUrlPrefix()）
             // 如果你之前的配置类里有 url-prefix，直接 m.getUrlPrefix() + objectName
-            return "https://" + bucketName + ".oss-cn-beijing.aliyuncs.com/" + objectName;
+            return "https://" + m.getBucketName() + ".oss-" + m.getRegion() + ".aliyuncs.com/" + objectName;
 
         } finally {
             // 关闭客户端，释放资源（注意：生产环境建议把 OSSClient 声明为 Bean 单例，不要每次上传都 new 和 close）
