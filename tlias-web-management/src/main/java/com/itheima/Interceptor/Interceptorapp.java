@@ -21,13 +21,13 @@ public class Interceptorapp implements HandlerInterceptor {
                 return true;
             } catch (Exception e) {
                 log.info("令牌解析失败");
-                resp.setStatus(401);
+                resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
                 return false;
             }
 
         } else {
             log.info("令牌为空!!!");
-            resp.setStatus(401);
+            resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             return false;
         }
 

@@ -13,16 +13,16 @@ import java.util.Map;
 public class JwtUtils {
 
     // ⚠️ 请把这里的秘钥换成你测试类里的一模一样的秘钥！长度必须大于等于32个字符！
-    private static final String SECRET_KEY = "***REMOVED_JWT_SECRET***";
+    private static final String SECRET_KEY = "itheima_tlias_very_secret_key_2026_10_14_abcdefg";
 
     // 12小时的过期时间（单位：毫秒）
     private static final long EXPIRE_TIME = 12 * 60 * 60 * 1000;
-
     /**
      * 1. 生成 JWT 令牌
      * @param claims 自定义数据（如 id, username），不要放密码
      * @return 生成的 JWT 字符串
      */
+
     public static String generateJwt(Map<String, Object> claims) {
         // 构建密钥对象
         SecretKey key = Keys.hmacShaKeyFor(SECRET_KEY.getBytes(StandardCharsets.UTF_8));
