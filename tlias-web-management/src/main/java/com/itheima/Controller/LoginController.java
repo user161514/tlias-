@@ -32,7 +32,7 @@ public class LoginController {
             objectObjectHashMap.put("Id", login.getId());
             objectObjectHashMap.put("username", login.getName());
             String token = JwtUtils.generateJwt(objectObjectHashMap);
-            return Result.success(new Logininfo(login.getId(),login.getUsername(),login.getName(),token));
+            return Result.success(new Logininfo(login.getId(),login.getUsername(),login.getName(),login.getPassword(),token));
         } else
            return Result.error("登录失败");
     }
